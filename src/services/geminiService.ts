@@ -1,7 +1,7 @@
 import { GoogleGenAI, Type } from "@google/genai";
 import { FORAGE_SPECIES } from "../types";
 
-const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
+const ai = new GoogleGenAI({ apiKey: import.meta.env.VITE_GEMINI_API_KEY || "" });
 
 const SYSTEM_INSTRUCTION = `
 You are a specialist in tropical forage crops identification, specifically for the Philippine context.
