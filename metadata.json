@@ -1,0 +1,11 @@
+{
+  "name": "PastoID: Forage AI Classifier",
+  "description": "An AI-powered smart agriculture tool for accurately identifying forage species in the Philippines, based on the DOST-HNRDA study comparing EfficientNetV2 and MobileNetV3 architectures.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": [
+    "AI Image Recognition",
+    "Smart Agriculture"
+  ]
+}
